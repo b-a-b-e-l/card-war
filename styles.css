@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/space.jpg");
+    background-size: cover;
+    font-family: 'Nobile', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+background-color: #1B2466;
+color: #BFF8E2;
+cursor: pointer;
+}
+
+#new-deck {
+    padding: 15px 30px;
+    align-self: flex-start;
+}
+
+#draw {
+    padding: 15px;
+}
+
+.disableBtn {
+    cursor: not-allowed;
+    background-color: #E7D0F6;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.computer-table, .player-table {
+    display: flex;
+}
+#card-computer, #card-player {
+    
+    border-radius: 8px;
+    width: 160px;
+    height: 222px;
+    margin: 10px;
+}
+#card-computer{
+    border: 1px solid #F9F871;
+    background-color: #F9F87180;
+}
+
+#card-player {
+    border: 1px solid #6CFACD;
+    background-color: #6CFACD80;
+}
+
+.card {
+  width: inherit; 
+  mix-blend-mode: multiply; 
+}
+
+.header p {
+    text-align: right;
+    color: #E7D0F6;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #E7D0F6;
+    margin: 2px;
+}
+.computer-table p, .player-table p {
+    font-size: 16px;
+    font-weight: 700;
+    align-self: center;
+    color: #E7D0F6;
+}
